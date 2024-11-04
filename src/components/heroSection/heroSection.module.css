@@ -1,0 +1,111 @@
+.container {
+    height: calc(100vh - 80px);
+    position: relative;
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    
+}
+
+.logo {
+    height: auto;
+    width: 800px;
+}
+.content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.heading {
+    color: var(--textLight);
+    font-size: 3rem;
+}
+
+.subText1 {
+    color: white;
+}
+
+.subText2 {
+    color: var(--primary);
+}
+
+.heading,
+.subText1,
+.subText2 {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.reserva,
+.membresias {
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-color: var(--primary);
+}
+
+.reserva:hover,
+.membresias:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.reserva {
+    background-color: var(--primary);
+    color: var(--textLight);
+    border: none;
+    
+}
+
+.membresias {
+    background-color: transparent;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .content {
+        gap: 10px;
+    }
+    
+    .logo {
+        width: 350px;
+        height: auto;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .reserva,
+.membresias {
+    height: 50px;
+    width: 200px;
+}
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .subText1,
+    .subText2 {
+        font-size: 1.2rem;
+    }
+}
