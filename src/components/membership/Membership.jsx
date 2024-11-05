@@ -2,7 +2,7 @@ import React from 'react'
 
 const Membership = () => {
   return (
-    <div>Membership</div>
+    <div id='membership'>Membership</div>
   )
 }
 

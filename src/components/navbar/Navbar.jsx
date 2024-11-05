@@ -18,9 +18,9 @@ const Navbar = () => {
           <Image src="/NGU-logo-short.png" width={150} height={80} alt="logo" className={styles.logo} />
         </div>
         <div className={styles.links}>
-          <Link href="#">TIMETABLE</Link>
-          <Link href="#">CONTACT</Link>
-          <Link href="#" className={styles.book}>BOOK A FREE TRIAL</Link>
+          <Link href="#">HORARIOS</Link>
+          <Link href="#">CONTACTO</Link>
+          <Link href="/#bookAFreeTrial" className={styles.book}>RESERVA TU CLASE DE PRUEBA</Link>
         </div>
         {!open ?
           <CiMenuBurger className={styles.menuButton} onClick={() => setOpen((prev) => !prev)} />
@@ -28,9 +28,9 @@ const Navbar = () => {
           <IoMdClose className={styles.menuButton} onClick={() => setOpen((prev) => !prev)} />}
         {open && (
           <div className={styles.mobileLinks}>
-            <Link href="#" onClick={() => setOpen(false)}>TIMETABLE</Link>
-            <Link href="#" onClick={() => setOpen(false)}>CONTACT</Link>
-            <Link href="#" onClick={() => setOpen(false)} className={styles.book}>BOOK A FREE TRIAL</Link>
+            <Link href="#" onClick={() => setOpen(false)}>HORARIOS</Link>
+            <Link href="#" onClick={() => setOpen(false)}>CONTACTO</Link>
+            <Link href="#bookAFreeTrial" onClick={() => setOpen(false)} behavior="smooth" className={styles.book}>RESERVA TU CLASE DE PRUEBA</Link>
           </div>
         )}
       </div>

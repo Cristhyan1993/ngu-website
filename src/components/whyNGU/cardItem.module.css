@@ -1,7 +1,6 @@
 .container {
     max-width: 300px;
     height: 450px;
-    background-color: var(--primary);
     border-radius: 5px;
     box-shadow: 20px 20px var(--secondary);
     display: flex;
@@ -9,7 +8,17 @@
     gap: 25px;
 }
 
+.container:nth-child(1) {
+    background-color: var(--primary);
+}
 
+.container:nth-child(2) {
+    background-color: var(--primaryLight);
+}
+
+.container:nth-child(3) {
+    background-color: var(--primaryDark);
+}
 
 .cardImage {
     width: 100%;
@@ -30,7 +39,7 @@
 .icon {
     position: absolute;
     left: calc(50% - 1rem);
-    top: calc(-1.2rem - 30px);
+    top: calc(-1.2rem - 28px);
     background-color: var(--secondaryLight);
     color: white;
     border-radius: 50%;

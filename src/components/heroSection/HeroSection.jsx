@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import styles from "./heroSection.module.css"
+import Link from 'next/link'
 const HeroSection = () => {
   return (
     <div className={styles.container}>
@@ -10,8 +11,12 @@ const HeroSection = () => {
         <h2 className={styles.subText1}>¿Estás empezando o listo para llevar tu entrenamiento al siguiente nivel?</h2>
         <h2 className={styles.subText2}>¡Reserva tu clase de prueba gratuita!</h2>
         <div className={styles.buttons}>
+        <Link href="#bookAFreeTrial">
           <button className={styles.reserva}>RESERVA</button>
+          </Link>
+          <Link href="#membership">
           <button className={styles.membresias}>MEMBRESIAS</button>
+          </Link>
         </div>
       </div>
       <Image src="/hero-section-background-1.jpg" height={2000} width={1000} alt='hero' className={styles.backgroundImage} />
