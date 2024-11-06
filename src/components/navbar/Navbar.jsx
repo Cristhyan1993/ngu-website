@@ -15,11 +15,13 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.contents}>
         <div>
+        <Link href="/">
           <Image src="/NGU-logo-short.png" width={150} height={80} alt="logo" className={styles.logo} />
-        </div>
+       </Link>
+       </div>
         <div className={styles.links}>
-          <Link href="#">HORARIOS</Link>
-          <Link href="#">CONTACTO</Link>
+          <Link href="/#horarios">HORARIOS</Link>
+          <Link href="/#contacto">CONTACTO</Link>
           <Link href="/#bookAFreeTrial" className={styles.book}>RESERVA TU CLASE DE PRUEBA</Link>
         </div>
         {!open ?
@@ -28,9 +30,9 @@ const Navbar = () => {
           <IoMdClose className={styles.menuButton} onClick={() => setOpen((prev) => !prev)} />}
         {open && (
           <div className={styles.mobileLinks}>
-            <Link href="#" onClick={() => setOpen(false)}>HORARIOS</Link>
-            <Link href="#" onClick={() => setOpen(false)}>CONTACTO</Link>
-            <Link href="#bookAFreeTrial" onClick={() => setOpen(false)} behavior="smooth" className={styles.book}>RESERVA TU CLASE DE PRUEBA</Link>
+            <Link href="/#horarios" onClick={() => setOpen(false)}>HORARIOS</Link>
+            <Link href="/#contacto" onClick={() => setOpen(false)}>CONTACTO</Link>
+            <Link href="/#bookAFreeTrial" onClick={() => setOpen(false)} behavior="smooth" className={styles.book}>RESERVA TU CLASE DE PRUEBA</Link>
           </div>
         )}
       </div>

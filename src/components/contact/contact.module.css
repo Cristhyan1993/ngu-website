@@ -1,0 +1,98 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.contentLeft {
+  flex: 1;
+}
+
+.contentRight {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  height: 100%;
+  gap: 10px;
+}
+
+.contactTop {
+  display: flex;
+  flex: 3;
+  gap: 10px;
+}
+
+.contactLocation,
+.contactInfo,
+.contactBottom {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.contactInfo {
+  background-color: var(--secondaryDark);
+  color: white;
+  border-radius: 20px 0 0 0;
+}
+
+.contactLocation {
+  background-color: var(--primaryLight);
+  border-radius: 0 20px 0 0;
+}
+
+.contactBottom {
+  background-color: var(--secondaryLight);
+  color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+.iconItems {
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1080px) {
+  .content {
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
+  }
+
+  .contactTop {
+    flex-direction: column;
+  }
+
+  .contactLocation,
+  .contactInfo,
+  .contactBottom {
+    border-radius: 5px;
+    min-height: 350px;
+  }
+}

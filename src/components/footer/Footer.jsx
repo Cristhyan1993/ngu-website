@@ -13,7 +13,7 @@ const Footer = () => {
       <div className='wrapper'>
         <div className={styles.contents}>
           <div className={styles.imageContainer}>
-            <Image src="/NGU-logo-short.png" width={200} height={80} alt="website logo" />
+            <Image src="/NGU-logo-short.png" width={170} height={50} alt="website logo" />
           </div>
           <div className={styles.itemsContainer}>
             <div className={styles.items}>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.itemSpacing}>
                   <p>Sab</p>
-                  <p>7am - 9pm</p>
+                  <p>9am - 11am</p>
                 </div>
                 <div className={styles.itemSpacing}>
                   <p>Dom</p>
