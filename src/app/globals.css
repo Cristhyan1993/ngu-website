@@ -1,10 +1,11 @@
 :root {
-  --background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(145,145,145,1) 50%, rgba(251,251,251,1) 100%);
+  --background: linear-gradient(0deg, rgb(230, 230, 230) 0%, rgba(155,155,155) 50%, rgba(230,230,230) 100%);
   --text: #171717;
   --textLight: #595959;
   --primary: #EAFF47;
   --primaryLight: #F1FF85;
   --primaryDark: #DDFC00;
+  /* --primaryDark: #B4CC00; */
   --secondary:#4C4345;
   --secondaryLight: #6C6063;
   --secondaryDark: #231F20;

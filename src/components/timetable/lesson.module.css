@@ -1,0 +1,20 @@
+.session {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--secondaryDark);
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.time {
+    color: var(--secondaryLight);
+}
+
+.blue {
+    color: #2084F6;
+}
+
+.red {
+    color: #C10000;
+}

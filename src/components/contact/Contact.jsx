@@ -14,7 +14,7 @@ const Contact = () => {
       <div className='wrapper'>
         <div className={styles.content}>
           <div className={styles.contentLeft}>
-            <Image src="/quote.PNG" width={250} height={500} alt="quote" className={styles.image} />
+            <Image src="/quote.PNG" width={250} height={500} alt="quote" className={`${styles.image} ${styles.hidden}`} />
           </div>
           <div className={styles.contentRight}>
             <div className={styles.contactTop}>

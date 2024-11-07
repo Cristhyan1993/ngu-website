@@ -95,4 +95,8 @@
     border-radius: 5px;
     min-height: 350px;
   }
+
+  .hidden {
+    display:none;
+  }
 }
