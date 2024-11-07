@@ -1,6 +1,4 @@
 .container {
-    background-color: var(--secondaryDark);
-    color:  var(--secondaryLight);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +6,8 @@
 }
 
 .contents {
+    background-color: var(--secondaryDark);
+    
     width: 1080px;
     padding: 20px;
     display: flex;
@@ -22,6 +22,15 @@
     align-items: center;
     justify-content: center;
     flex: 1;
+}
+
+.contentContainer {
+    background-color: var(--secondaryDark);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--textLight);
 }
 
 .itemsContainer {
@@ -57,6 +66,13 @@
     width: 90%;
     border-top: 2px solid var(--secondaryLight);
     text-align: center;
+
+}
+
+.stripesPattern {
+    width: 100%;
+    height: auto;
+    transform: scaleX(-1);
 }
 
 @media (max-width: 1080px) {
@@ -70,6 +86,6 @@
     }
 
     .items {
-       width: 150px;
+       width: 170px;
     }
 }

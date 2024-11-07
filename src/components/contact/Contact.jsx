@@ -6,6 +6,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import Link from 'next/link';
 
 const Contact = () => {
   return (
@@ -19,9 +20,9 @@ const Contact = () => {
           <div className={styles.contentRight}>
             <div className={styles.contactTop}>
               <div className={styles.contactInfo}>
-                <h3>¡Estamos Aquí para Ayudarte!</h3>
-                <p>Si tienes preguntas, quieres más información sobre nuestras clases, o estás listo para comenzar tu viaje en CrossFit, ¡no dudes en ponerte en contacto con nosotros!</p>
-                <div className={styles.iconItems}>
+                <h3>¡Estamos Aquí para <span className="neon bold">Ayudarte</span>!</h3>
+                <p>Si tienes preguntas, quieres más información sobre nuestras clases, o estás <span className='neon bold'>listo para comenzar</span> tu viaje en CrossFit, ¡no dudes en ponerte en contacto con nosotros!</p>
+                <div className={`${styles.iconItems} neon`}>
                   <div className={styles.iconItem}>
                     <FaWhatsapp className={styles.icons} />
                     <p>+591 xxxxxx</p>
@@ -36,23 +37,32 @@ const Contact = () => {
                 <h3>
                   Ubicacion
                 </h3>
-                <p>También puedes visitarnos en nuestro box para conocer a nuestro increíble equipo. ¡Nos encantaría verte y ser parte de tu vida fit!</p>
+                <p>También puedes visitarnos en nuestro box para conocer a nuestro <span className='bold'>increíble equipo.</span> ¡Nos encantaría verte y ser parte de tu vida fit!</p>
                 <div className={styles.iconItem}>
                   <IoLocationOutline className={styles.icons} />
                   <p>Edificio Torre Nova</p>
                   <p>Calle 27 de Cota Cota</p>
+                  <Link href="https://maps.app.goo.gl/rCLwc2YCAGuyxbqC9" target="_blank">
+                    <p className={styles.link}>(Abrir google maps)</p>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className={styles.contactBottom}>
-              <p>¡Únete a nuestra comunidad y descubre lo que CrossFit puede hacer por ti!</p>
+              <p><span className='bold neon'>¡Únete a nuestra comunidad</span> y descubre lo que CrossFit puede hacer por ti!</p>
               <p>Síguenos en nuestras redes sociales para estar al tanto de novedades.</p>
-              <div className={styles.iconItems}>
+              <div className={`${styles.iconItems} neon`}>
                 <div className={styles.iconItem}>
-                  <FaFacebookF className={styles.icons} />
+                  <Link href="https://www.facebook.com/nevergiveup.crossfit" target="_blank">
+                    <FaFacebookF className={styles.icons} />
+                    <p>nevergiveup.crossfit</p>
+                  </Link>
                 </div>
                 <div className={styles.iconItem}>
-                  <FaInstagram className={styles.icons} />
+                  <Link href="https://www.instagram.com/nevergiveup_crossfit/" target="_blank">
+                    <FaInstagram className={styles.icons} />
+                    <p>@nevergiveup_crossfit</p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -60,9 +70,9 @@ const Contact = () => {
         </div>
       </div>
       <div className='wrapper'>
-         <Image src="/cards-group.jpg" width={1080} height={1000} alt="quote" className={styles.image} />
+        <Image src="/cards-group.jpg" width={1080} height={1000} alt="quote" className={styles.image} />
       </div>
-     
+
     </div>
   )
 }

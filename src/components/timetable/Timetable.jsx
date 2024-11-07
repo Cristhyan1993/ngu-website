@@ -39,7 +39,7 @@ const Timetable = () => {
     }
   }
   return (
-    <div className={styles.container} id="horarios">
+    <div className={`${styles.container} marginY`} id="horarios">
       <div className='wrapper'>
         <div className={styles.contents}>
           <h1>Horarios</h1>
@@ -94,11 +94,10 @@ const Timetable = () => {
 
           </div>
           <div>
-            <p>Las reservas deben hacerse con 1 hora de antelación.</p>
-            <p>No abrimos Domingos y dias feriados.</p></div>
+            <p>Las reservas deben hacerse con <span className='bold'>1 hora de antelación.</span></p>
+            <p>No abrimos <span className='bold'>Domingos o dias feriados.</span></p></div>
         </div>
       </div>
-      <Image src="/edge-pattern.png" height={500} width={1500} alt="design stripes neon and black" className={styles.stripesPattern} />
     </div>
   )
 }

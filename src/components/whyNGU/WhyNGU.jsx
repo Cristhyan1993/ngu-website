@@ -35,9 +35,8 @@ const WhyNGU = () => {
     }
   ]
   return (
-    <div className={styles.container}>
-      <Image src="/edge-pattern.png" height={500} width={1500} alt="design stripes neon and black" className={styles.stripesPattern} />
-      <div className="wrapper marginY">
+    <div className={`${styles.container} marginY`}>
+      <div className="wrapper">
         <div className={styles.contents}>
           <h1>
             Lleva tu <span className='neon'>entrenamiento</span> al siguiente nivel
@@ -51,7 +50,7 @@ const WhyNGU = () => {
             ))
             }
           </div>
-          <Image src="/barbell.png" height={400} width={1000} alt="barbell" className={styles.barbell} />
+          {/* <Image src="/barbell.png" height={400} width={1000} alt="barbell" className={styles.barbell} /> */}
         </div>
       </div>
     </div>

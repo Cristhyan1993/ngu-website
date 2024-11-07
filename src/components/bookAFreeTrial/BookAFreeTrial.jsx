@@ -8,7 +8,7 @@ import { TfiEmail } from "react-icons/tfi";
 
 const BookAFreeTrial = () => {
   return (
-    <div className={styles.container} id='bookAFreeTrial'>
+    <div className={`${styles.container} marginY`} id='bookAFreeTrial'>
     <div className={styles.wrapper}>
       <div className={styles.content}>
         <h1>DA EL PRIMER PASO</h1>
