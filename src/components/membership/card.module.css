@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  color: var(--textLight);
+  padding: 50px;
+  flex: 3;
+  border-radius: 5px;
+  position: relative;
+}
+
+.container:nth-child(1) {
+  background-color: #dee0e3;
+  color: #868C98;
+}
+
+.container:nth-child(2) {
+  background-color: #fff099;
+  color: #AF9400;
+  height: 500px;
+  flex: 5;
+}
+
+.container:nth-child(3) {
+  background-color: #b0c8e8;
+  color: #417BC7;
+}
+
+.bullet {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-end;
+  max-width: 800px;
+}
+
+.image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 0 5px;
+}
+
+@media (max-width: 1080px) {
+  .container {
+    min-height: 300px;
+    width: 100%;
+  }
+}
