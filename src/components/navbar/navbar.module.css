@@ -43,7 +43,7 @@
     top: 80px;
     left: 0;
     width: 100%;
-    height: calc(40vh - 80px);
+    height: calc(100vh - 200px);
     background-color: #DCDCDC;
     display: flex;
     flex-direction: column;

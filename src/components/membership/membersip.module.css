@@ -23,10 +23,11 @@
   gap: 20px;
   align-items: flex-end;
   max-width: 800px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1080px) {
   .cards {
-    flex-direction: column;
+    padding: 0 20px 0 20px;
   }
 }

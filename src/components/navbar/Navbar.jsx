@@ -30,9 +30,11 @@ const Navbar = () => {
           <IoMdClose className={styles.menuButton} onClick={() => setOpen((prev) => !prev)} />}
         {open && (
           <div className={styles.mobileLinks}>
-            <Link href="/#horarios" onClick={() => setOpen(false)}>HORARIOS</Link>
-            <Link href="/#contacto" onClick={() => setOpen(false)}>CONTACTO</Link>
-            <Link href="/#bookAFreeTrial" onClick={() => setOpen(false)} behavior="smooth" className={styles.book}>RESERVA TU CLASE DE PRUEBA</Link>
+            <Link href="/#whatWeOffer" onClick={() => setOpen(false)}><p >LO QUE OFRECEMOS</p></Link>
+            <Link href="/#membership" onClick={() => setOpen(false)}><p>MEMBRESIAS</p></Link>
+            <Link href="/#contacto" onClick={() => setOpen(false)}><p>CONTACTO</p></Link>
+            <Link href="/#horarios" onClick={() => setOpen(false)}><p>HORARIOS</p></Link>
+            <Link href="/#bookAFreeTrial" onClick={() => setOpen(false)} behavior="smooth" className={styles.book}><p>RESERVA TU CLASE DE PRUEBA</p></Link>
           </div>
         )}
       </div>

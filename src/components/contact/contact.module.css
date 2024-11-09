@@ -25,6 +25,7 @@
   display: flex;
   flex: 3;
   flex-direction: column;
+  flex-wrap: wrap;
   height: 100%;
   gap: 10px;
 }
@@ -43,6 +44,7 @@
   flex: 3;
   justify-content: space-around;
   padding: 10px;
+  gap: 20px;
 }
 
 .contactInfo {
@@ -89,17 +91,23 @@
   }
 
   .contactTop {
-    flex-direction: column;
+    
   }
 
   .contactLocation,
   .contactInfo,
   .contactBottom {
     border-radius: 5px;
-    min-height: 350px;
+    min-height: fit-content;
   }
 
   .hidden {
     display:none;
+  }
+}
+
+@media (max-width: 720px) {
+  .contactTop {
+   flex-direction: column; 
   }
 }

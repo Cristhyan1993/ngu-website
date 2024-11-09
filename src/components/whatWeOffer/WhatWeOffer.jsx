@@ -53,17 +53,18 @@ const WhatWeOffer = () => {
     },
   ]
   return (
-    <div className={`${styles.container} marginY`}>
+    <div className={`${styles.container} marginY`} id="whatWeOffer">
       <div className='wrapper'>
         <div className={styles.contents}>
           <h1>Lo Que <span className='neon'>Ofrecemos</span></h1>
-          <p> Nuestras sesiones son aptas para <span className='bold neon'>todos los niveles,</span> y tu coach en NGU adaptará los ejercicios y técnicas para que avances de manera segura y que aproveches al <span className='bold'>máximo cada entrenamiento.</span></p>
-        </div>
-        </div>
+          <p> Nuestras sesiones son aptas para <span className='bold neon'>todos los niveles</span> y tu coach en NGU adaptará los ejercicios y técnicas para que avances de manera segura y que aproveches al <span className='bold'>máximo cada entrenamiento.</span></p>
+        
         <div className={styles.cards}>
-        {cards.map(card => (
-          <CardItem key={card.details.title} card={card}/>
-        ))}
+          {cards.map(card => (
+            <CardItem key={card.details.title} card={card} />
+          ))}
+        </div>
+        </div>
       </div>
     </div>
   )

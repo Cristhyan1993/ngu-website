@@ -85,11 +85,6 @@
     gap: 10px;
   }
 
-  .logo {
-    width: 350px;
-    height: auto;
-  }
-
   .buttons {
     flex-direction: column;
   }
@@ -112,7 +107,7 @@
 
 @media (max-width: 1080px ) {
     .logo {
-        width: 350px;
+        width: 90%;
         height: auto;
       }
 }
