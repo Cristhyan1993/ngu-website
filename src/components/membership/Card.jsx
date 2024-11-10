@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Card = ({ card }) => {
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container} animate`}>
             <h2>{card.heading}</h2>
             <h3>{card.subHeading}</h3>
             <div className={styles.bullet}>

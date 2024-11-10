@@ -4,7 +4,7 @@ import styles from "./cardItem.module.css"
 
 const CardItem = ({ card }) => {
     return (
-        <div className={styles.container} >
+        <div className={`${styles.container} animate`} >
             <Image src={card.image} height={300} width={600} alt="group photo" className={styles.cardImage} />
             <div className={styles.contents}>
                 <div className={styles.icon}>

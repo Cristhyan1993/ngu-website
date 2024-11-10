@@ -43,25 +43,41 @@
     top: 80px;
     left: 0;
     width: 100%;
-    height: calc(100vh - 200px);
+    height: 100vh;
     background-color: #DCDCDC;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 50%;
     gap: 10px;
     overflow: hidden;
-    transition: height 0.5s ease-in-out;
     z-index: 2;
+    animation: slideMe .5s ease-in-out;
+}
+
+@keyframes slideMe {
+    0% {
+        transform: skewX(0deg) translate(-500px)
+    }
+
+    100% {
+        transform: skew(0deg);
+    }
 }
 
 @media (max-width: 768px) {
+    .container {
+        height: 60px;
+    }
+
     .contents {
         margin: 0px 10px
     }
 
     .logo {
-        width: 120px;
+        width: 100px;
+        height: 70px;
     }
     .links {
         display: none;
@@ -69,7 +85,7 @@
     
     .mobileLinks {
         position: absolute;
-        top: 80px;
+        top: 60px;
     }
 
     .menuButton {

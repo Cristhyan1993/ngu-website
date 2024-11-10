@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const CardItem = ({ card }) => {
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container} animate`}>
             <Image src={card.image} className={styles.image} height={300} width={500} alt={card.details.title} />
             <div className={styles.contents}>
                 <div className={styles.contentTop}>

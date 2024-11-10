@@ -10,7 +10,7 @@
 
 .content {
   height: 90vh;
-  min-height: 500px;
+  min-height: 800px;
   display: flex;
   flex-direction: column;
   gap: 40px;

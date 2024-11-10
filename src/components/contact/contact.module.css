@@ -99,6 +99,8 @@
   .contactBottom {
     border-radius: 5px;
     min-height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .hidden {
