@@ -40,7 +40,7 @@ const Timetable = () => {
   }
   return (
     <div className={`${styles.container} marginY`} id="horarios">
-      <div className='wrapper'>
+      <div className='wrapper translateY'>
         <div className={styles.contents}>
           <h1>Horarios</h1>
           <div className={styles.schedule}>

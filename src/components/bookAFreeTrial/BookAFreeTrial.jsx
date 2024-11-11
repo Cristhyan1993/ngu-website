@@ -9,7 +9,7 @@ import { TfiEmail } from "react-icons/tfi";
 const BookAFreeTrial = () => {
   return (
     <div className={`${styles.container} marginY`} id='bookAFreeTrial'>
-    <div className={styles.wrapper}>
+    <div className={`${styles.wrapper} translateY`}>
       <div className={`${styles.content} animate`}>
         <h1>DA EL PRIMER PASO</h1>
         <p>Contáctanos por WhatsApp o envíanos un correo para reservar una clase de introducción <span className='bold'>gratuita</span> y descubrir si nuestras clases se alinean con tus metas de fitness.</p>

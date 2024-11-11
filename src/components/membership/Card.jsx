@@ -1,21 +1,24 @@
 import React from 'react'
 import styles from './card.module.css'
 import Image from 'next/image'
+import { LuDumbbell } from "react-icons/lu";
 
 const Card = ({ card }) => {
     return (
         <div className={`${styles.container} animate`}>
             <h2>{card.heading}</h2>
             <h3>{card.subHeading}</h3>
-            <div className={styles.bullet}>
-            <ul>
+            <ul className={styles.bulletPoints}>
                 {card.contents.map((text, index) => (
-                    <li key={index}><p>{text}</p></li>
+                    <li className={styles.bulletPoint} key={index}>
+                        <LuDumbbell className={styles.icon} />
+                        <p>{text}</p>
+                    </li>
                 ))}
             </ul>
-            </div>
+            <p>{card.subText}</p>
             <h3>{card.price}</h3>
-            <Image src="/gold-corner.png" className={styles.image} width={100} height={100} alt="pattern corner"/>
+            <Image src="/gold-corner.png" className={styles.image} width={100} height={100} alt="pattern corner" />
         </div>
     )
 }

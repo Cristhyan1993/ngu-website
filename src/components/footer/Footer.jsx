@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} translateY`}>
       <Image src="/edge-pattern.png" height={500} width={1500} alt="design stripes neon and black" className={styles.stripesPattern} />
       <div className={styles.contentContainer}>
         <div className='wrapper'>
@@ -71,7 +71,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.itemText}>
                   <div className={styles.itemSpacing}>
-                    <p>+591 xxxxxx</p>
+                    <p>+591 75260651</p>
                     <FaWhatsapp className={styles.icons} />
                   </div>
                   <div className={styles.itemSpacing}>

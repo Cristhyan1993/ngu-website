@@ -55,6 +55,7 @@
   font-weight: bold;
   letter-spacing: 5px;
   border-color: var(--primary);
+  text-transform: uppercase;
 }
 
 .reserva:hover,

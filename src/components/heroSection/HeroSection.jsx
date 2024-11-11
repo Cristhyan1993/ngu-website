@@ -15,7 +15,7 @@ const HeroSection = () => {
             <button className={styles.reserva}>RESERVA</button>
           </Link>
           <Link href="#membership">
-            <button className={styles.membresias}>MEMBRESIAS</button>
+            <button className={styles.membresias}>Membresías</button>
           </Link>
         </div>
       </div>

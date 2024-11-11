@@ -4,13 +4,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.contentss {
+  display: flex;
+  flex-direction: column;
   gap: 100px;
 }
 
-.content {
+.contents {
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
+/* 
+.contents {
+  margin-left: 10px;
+  margin-right: 10px;
+} */
 
 .image {
   width: 100%;
@@ -84,14 +95,19 @@
   color: #2084F6;}
 
 @media (max-width: 1080px) {
+  .contents {
+    gap:0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .content {
     flex-direction: column;
     margin: 10px;
     gap: 20px;
   }
 
-  .contactTop {
-    
+  .contentLeft {
+    flex:0;
   }
 
   .contactLocation,

@@ -4,7 +4,7 @@
   justify-content: space-around;
   height: 400px;
   color: var(--textLight);
-  padding: 50px;
+  padding: 40px;
   flex: 3;
   border-radius: 5px;
   position: relative;
@@ -15,11 +15,13 @@
 .container:nth-child(1) {
   background-color: #dee0e3;
   color: #868C98;
+  border: 2px solid #868C98;
 }
 
 .container:nth-child(2) {
   background-color: #fff099;
   color: #AF9400;
+  border: 2px solid #AF9400;
   height: 500px;
   flex: 5;
 }
@@ -27,13 +29,23 @@
 .container:nth-child(3) {
   background-color: #b0c8e8;
   color: #417BC7;
+  border: 2px solid #417BC7;
 }
 
-.bullet {
-  width: 100%;
+.bulletPoints {
+
+}
+
+.bulletPoint {
   display: flex;
-  justify-content: center;
-  text-align: start;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.icon {
+  min-height: 15px;
+  min-width: 15px;
 }
 
 .cards {

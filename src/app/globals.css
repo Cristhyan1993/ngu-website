@@ -45,8 +45,8 @@ a {
 }
 
 .marginY {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .wrapper {
@@ -62,8 +62,16 @@ p {
   font-weight: bold;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .neon {
   color: var(--primaryDark);
+}
+
+.translateY {
+  transform: translateY(100px);
 }
 
 @keyframes appear {
@@ -85,7 +93,7 @@ p {
 
 @media (max-width: 1080px) {
   .marginY {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }

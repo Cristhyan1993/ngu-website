@@ -51,6 +51,7 @@
     justify-content: space-around;
     padding-bottom: 50%;
     gap: 10px;
+    text-transform: uppercase;
     overflow: hidden;
     z-index: 2;
     animation: slideMe .5s ease-in-out;
