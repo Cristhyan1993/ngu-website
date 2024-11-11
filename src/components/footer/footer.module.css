@@ -33,6 +33,11 @@
     flex-wrap: wrap;
 }
 
+.logo {
+    width: 100%;
+    height: auto;
+}
+
 .itemsContainer {
     display: flex;
     flex: 3;

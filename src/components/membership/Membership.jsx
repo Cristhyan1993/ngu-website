@@ -20,7 +20,7 @@ const Membership = () => {
     {
       heading: "Personal",
       subHeading: "",
-      contents: ["Plan de entrenamiento para alcanzar tus objetivos"],
+      contents: ["Plan de entrenamiento para alcanzar tus objetivos", "Sesión 1 a 1 con tu entrenador"],
       price: "Bs 899.00"
     }
   ]

@@ -20,9 +20,9 @@ const Navbar = () => {
        </Link>
        </div>
         <div className={styles.links}>
-          <Link href="/#horarios">HORARIOS</Link>
-          <Link href="/#contacto">CONTACTO</Link>
-          <Link href="/#bookAFreeTrial" className={styles.book}>RESERVA TU CLASE DE PRUEBA</Link>
+          <Link href="/#horarios" className={styles.link}>HORARIOS</Link>
+          <Link href="/#contacto" className={styles.link}>CONTACTO</Link>
+          <Link href="/#bookAFreeTrial" className={`${styles.book} ${styles.link}`}>RESERVA TU CLASE DE PRUEBA</Link>
         </div>
         {!open ?
           <CiMenuBurger className={styles.menuButton} onClick={() => setOpen((prev) => !prev)} />

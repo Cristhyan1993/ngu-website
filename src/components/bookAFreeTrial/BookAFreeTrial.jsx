@@ -1,4 +1,3 @@
-
 import React from 'react'
 import styles from "./bookAFreeTrial.module.css"
 import { FaWhatsapp } from "react-icons/fa";
@@ -18,7 +17,7 @@ const BookAFreeTrial = () => {
         <div className={styles.contact}>
           <div className={styles.contactItem}>
           <FaWhatsapp className={styles.icon} />
-            <p>+591 xxxxxx</p>
+            <p>+591 75260651</p>
           </div>
           <div className={styles.contactItem}>
           <TfiEmail className={styles.icon}/>

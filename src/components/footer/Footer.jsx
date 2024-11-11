@@ -16,7 +16,7 @@ const Footer = () => {
         <div className='wrapper'>
           <div className={styles.contents}>
             <div className={styles.imageContainer}>
-              <Image src="/NGU-logo-short.png" width={170} height={50} alt="website logo" />
+              <Image src="/NGU-logo-short.png" width={170} height={50} alt="website logo" className={styles.logo} />
             </div>
             <div className={styles.itemsContainer}>
               <div className={styles.items}>

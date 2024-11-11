@@ -16,7 +16,6 @@ const Contact = () => {
         <div className={styles.contentss}>
           <h1>Contacto</h1>
           <div className={styles.contents}>
-            
             <div className={styles.contentLeft}>
               <Image src="/quote.PNG" width={250} height={500} alt="quote" className={`${styles.image} ${styles.hidden}`} />
             </div>
@@ -32,7 +31,7 @@ const Contact = () => {
                     </div>
                     <div className={styles.iconItem}>
                       <TfiEmail className={styles.icons} />
-                      email@gmail.com
+                      <p>email@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -71,10 +70,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        
-
-        <Image src="/cards-group.jpg" width={1080} height={1000} alt="quote" className={styles.image} />
-</div>
+          <Image src="/cards-group.jpg" width={1080} height={1000} alt="quote" className={styles.image} />
+        </div>
       </div>
     </div>
   )

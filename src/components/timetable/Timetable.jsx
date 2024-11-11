@@ -95,7 +95,7 @@ const Timetable = () => {
           </div>
           <div>
             <p>Las reservas deben hacerse con <span className='bold'>1 hora de antelación.</span></p>
-            <p>No abrimos <span className='bold'>Domingos o dias feriados.</span></p></div>
+            <p>No abrimos <span className='bold'>Domingos ni días feriados.</span></p></div>
         </div>
       </div>
     </div>

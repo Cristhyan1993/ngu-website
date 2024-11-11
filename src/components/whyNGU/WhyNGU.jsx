@@ -44,6 +44,9 @@ const WhyNGU = () => {
           <p>
             Nuestros entrenadores están comprometidos a ayudarte a alcanzar tus metas. Ya sea que estés <span className='bold'>comenzando</span> o buscando llevar tu entrenamiento al <span className='bold'>siguiente nivel,</span> estamos aquí para apoyarte y ayudarte a alcanzar tu máximo potencial.
           </p>
+          <h2>
+            ¿Por qué <span className='neon bold'>NGU...</span>?
+          </h2>
           <div className={styles.cards}>
             {cards.map((card, index) => (
               <CardItem key={index} card={card} />
