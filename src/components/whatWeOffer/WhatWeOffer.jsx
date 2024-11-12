@@ -16,7 +16,7 @@ const WhatWeOffer = () => {
       details: {
         title: "CrossFit",
         icon: <SiReactiveresume />,
-        text: "CrossFit se define como movimiento funcional constantemente variado, ¡y eso es exactamente lo que ofrecen las clases de CrossFit en NGU. Nuestras sesiones en grupos pequeños te brindan tu propio espacio de entrenamiento, un equipo de compañeros que te apoya y un coach de CrossFit dedicado a ti."
+        text: "CrossFit se define como movimiento funcional constantemente variado, y eso es exactamente lo que ofrecen las clases de CrossFit en NGU. Nuestras sesiones en grupos pequeños te brindan tu propio espacio de entrenamiento, un equipo de compañeros que te apoya y un coach de CrossFit dedicado a ti."
       }
     },
     {

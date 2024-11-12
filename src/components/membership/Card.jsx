@@ -6,7 +6,7 @@ import { LuDumbbell } from "react-icons/lu";
 const Card = ({ card }) => {
     return (
         <div className={`${styles.container} animate`}>
-            <h2>{card.heading}</h2>
+            <h2 className={styles.heading}>{card.heading}</h2>
             <h3>{card.subHeading}</h3>
             <ul className={styles.bulletPoints}>
                 {card.contents.map((text, index) => (

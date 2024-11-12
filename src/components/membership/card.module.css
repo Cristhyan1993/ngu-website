@@ -32,6 +32,11 @@
   border: 2px solid #417BC7;
 }
 
+.heading {
+  border-bottom: 2px solid;
+  padding-bottom: 15px;
+}
+
 .bulletPoints {
   display: flex;
   flex-direction: column;
