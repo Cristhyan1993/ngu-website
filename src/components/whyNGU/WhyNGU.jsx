@@ -10,7 +10,7 @@ import { CiFaceSmile } from "react-icons/ci";
 const WhyNGU = () => {
   const cards = [
     {
-      image: "/cards-group.jpg",
+      image: "/image-10.jpg",
       details: {
         title: "Comunidad Vibrante",
         icon: <CiFaceSmile />,
@@ -18,7 +18,7 @@ const WhyNGU = () => {
       }
     },
     {
-      image: "/cards-community.jpg",
+      image: "/image-7.jpg",
       details: {
         title: "Clase en Grupo",
         icon: <MdGroups />,

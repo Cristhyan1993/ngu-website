@@ -12,7 +12,7 @@ import { SiReactiveresume } from "react-icons/si";
 const WhatWeOffer = () => {
   const cards = [
     {
-      image: "/handstand.jpg",
+      image: "/image-3.jpg",
       details: {
         title: "CrossFit",
         icon: <SiReactiveresume />,
@@ -20,7 +20,7 @@ const WhatWeOffer = () => {
       }
     },
     {
-      image: "/handstand.jpg",
+      image: "/image-8.jpg",
       details: {
         title: "Gimnástica",
         icon: <MdOutlineSportsGymnastics />,
@@ -36,7 +36,7 @@ const WhatWeOffer = () => {
       }
     },
     {
-      image: "/weight-loss.jpg",
+      image: "/image-5.jpg",
       details: {
         title: "Bajar de Peso",
         icon: <GiWeightScale />,
@@ -44,7 +44,7 @@ const WhatWeOffer = () => {
       }
     },
     {
-      image: "/cards-community.jpg",
+      image: "/image-1.jpg",
       details: {
         title: "Ganar Masa Muscular",
         icon: <GiStrong />,
